@@ -1,0 +1,401 @@
+a {
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+hr {
+    border-width: 0;
+    height: 2px;
+    background-color: black;
+}
+
+.content {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.container,
+#mainscreen {
+    background-color: #FFF5EE;
+}
+
+
+/* Navigation Bar */
+
+.navbar {
+    z-index: 1;
+}
+
+#dropdownMenuButton {
+    background-color: rgba(0, 0, 0, 0.493);
+    border: none;
+    font-size: 20px;
+}
+
+#dropdownMenuButton:focus {
+    box-shadow: none;
+}
+
+.navbar-brand {
+    font-size: 2.2rem;
+}
+
+.navbar {
+    margin-bottom: 1.2rem;
+    padding: 0 1rem;
+}
+
+.nav-item {
+    margin: 0 10px;
+}
+
+.nav-link {
+    font-size: 1.3rem;
+}
+
+.dropdown {
+    margin-top: 7px;
+}
+
+.fa-map-marker {
+    margin: 1rem 0;
+    font-size: 22px;
+}
+
+
+/* Body Content */
+
+.first-section {
+    background-image: url("images/first1.gif");
+    width: 100%;
+    text-align: center;
+    color: white;
+    height: 660px;
+}
+
+.glow {
+    margin: 1rem 0;
+    font-size: 80px;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+    from {
+        text-shadow: 0 0 0px #fff, 0 0 5px #fff, 0 0 10px #ca590e, 0 0 15px #e66800, 0 0 20px #e68200, 0 0 25px #e6bc00, 0 0 30px #d7e600;
+    }
+    to {
+        text-shadow: 0 0 0px #fff, 0 0 8px #ffde4d, 0 0 16px #ffb24d, 0 0 24px #ffb24d, 0 0 32px #ff9d4d, 0 0 40px #ffac4d, 0 0 48px #ff7f4d;
+    }
+}
+
+h1 {
+    font-family: 'Krona One', sans-serif;
+    font-size: 102px !important;
+}
+
+h2 {
+    font-family: 'Parisienne', cursive;
+    color: black;
+}
+
+
+/* --------------------------------------------------------------------------------------------------------------------------------------- */
+
+.second-section {
+    background-image: url('images/second.jpg');
+    width: 100%;
+    text-align: center;
+    color: white;
+    height: 600px;
+}
+
+.second-section h3 {
+    font-size: 80px;
+    padding: 1rem 0;
+    font-family: 'Playball', cursive;
+    color: white;
+}
+
+.second-images {
+    margin: 1rem 2rem;
+    box-shadow: 2px 2px 20px white;
+}
+
+.second-images:hover {
+    margin: 1rem 2rem;
+    box-shadow: 2px 2px 20px rgb(128, 216, 116);
+    width: 580px;
+    color: rgb(47, 179, 255);
+}
+
+.second-section h4 {
+    color: rgb(240, 175, 240);
+    font-family: 'Viga', sans-serif;
+}
+
+
+/* -------------------------------------------------------------------------------------------------------- */
+
+.third-section {
+    background-image: url('images/third.jpg');
+    width: 100%;
+    text-align: center;
+    color: white;
+    height: 100%;
+    padding-bottom: 40px;
+}
+
+.third-section h3 {
+    padding: 2rem 0;
+    font-size: 4rem;
+    font-family: 'Playball', cursive;
+}
+
+.third-images {
+    margin: 0 20px;
+}
+
+.third-images:hover {
+    height: 305px;
+}
+
+.carousel {
+    height: 355px;
+}
+
+
+/* ---------------------------------------------------------------------------------------------------- */
+
+.card:hover {
+    box-shadow: 0 0 20px rgb(194, 226, 53);
+}
+
+
+/* --------------------------------------------------------------------------------------------------------- */
+
+
+/* Contact Section */
+
+#contact h2 {
+    text-align: center;
+    padding: 2rem 0;
+    color: white;
+    font-size: 4rem;
+}
+
+.rahul {
+    margin: 1rem auto;
+}
+
+.vaibhavi {
+    margin: 1rem auto;
+}
+
+.divya {
+    margin: 1rem auto;
+}
+
+.links {
+    background-color: rgba(0, 0, 0, 0.493);
+    color: white;
+}
+
+.links .fa {
+    color: white;
+    width: 10px;
+}
+
+#contact h2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* Karanji */
+
+.karanji {
+    margin: 0;
+    justify-content: center;
+    background-color: #FAACA8;
+    background-image: linear-gradient(19deg, #FAACA8 0%, #DDD6F3 100%);
+    /* background: url('images/karanji-main.png') repeat-x center top; */
+    height: 300vh;
+}
+
+.info-first {
+    justify-content: center;
+    padding: 2rem 0;
+}
+
+.heading {
+    color: rgb(0, 0, 17);
+    padding: 2rem;
+    text-align: center;
+    text-shadow: 5px 5px 20px rgba(23, 45, 168, 0.767);
+}
+
+.info-second {
+    background-color: rgba(0, 0, 0, 0.2);
+    color: black;
+    font-size: 1.5rem;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: #312d2b;
+    color: white;
+    font-weight: bold;
+}
+
+
+/* Home Screen Of User */
+
+.home-first-section {
+    background-image: url('images/main.jpg');
+}
+
+.home-center-topic {
+    float: left;
+    padding: 0 1rem;
+}
+
+.home-center-topic h1 {
+    font-size: 70px !important;
+}
+
+.home-center-topic h2 {
+    font-size: 60px;
+    display: inline-block;
+}
+
+.facilities {
+    background-color: rgba(168, 63, 63, 0.4);
+    margin: 42px 11rem 0 46rem;
+    padding: 1rem 1rem;
+    box-shadow: lightgoldenrodyellow;
+    border-radius: 30px;
+}
+
+.facilities ul {
+    list-style: none;
+    text-align: left;
+    font-size: 2rem;
+}
+
+ul a {
+    color: white;
+}
+
+ul a:hover {
+    color: yellowgreen;
+}
+
+.middle {
+    background-color: maroon;
+}
+
+.hotel-images,
+.travel-images {
+    justify-content: center;
+}
+
+.hotel,
+.travel {
+    border-right: 3px solid brown;
+}
+
+.hotel-images img,
+.travel-images img {
+    width: 10rem;
+    margin: 2rem;
+}
+
+.hotel h3,
+.travel h3 {
+    font-size: 3rem;
+    font-family: 'Parisienne', cursive;
+    text-align: center;
+    color: whitesmoke;
+}
+
+#review h5,
+p {
+    color: whitesmoke;
+    text-align: center;
+}
+
+#review h3 {
+    font-family: 'Krona One', sans-serif;
+    font-size: 2rem;
+    margin-top: 10px;
+}
+
+.review {
+    justify-content: center;
+    margin: 2rem 0;
+}
+
+.review .card {
+    background-color: brown;
+}
+
+.feedback {
+    justify-content: center;
+}
+
+#feedback h3 {
+    font-size: 3rem;
+}
+
+.feedback-form {
+    padding: 0 9rem;
+    justify-content: center;
+}
+
+.feedback-form form {
+    padding: 2rem;
+    background-color: #C19A6B;
+    border-radius: 10px;
+    border: 5px solid brown;
+}
+
+.feedback-section {
+    height: 112vh;
+}
+
+
+/* Media Queries */
+
+@media (max-width: 800px) {
+    .first {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media (max-width:991px) {
+    .leftBox {
+        height: 60vh;
+    }
+    .addbooking {
+        background-color: teal;
+        color: white;
+        margin: 2% auto;
+        justify-content: center;
+        padding: 2vh 0;
+    }
+    .addTransport {
+        background-color: purple;
+        color: white;
+        margin: 2% auto;
+        justify-content: center;
+        padding: 2vh 0;
+    }
+}
